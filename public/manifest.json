@@ -1,0 +1,13 @@
+{
+  "background_color": "hsv(0, 0%, 100%)",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Devora",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "devora-mtxql9g0o-adi06.vercel",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "Devora",
+  "description": "Build Resumes That\nGet You Hired"
+}
