@@ -1,18 +1,41 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Devora</title>
-  <meta name="description" content="Lovable Generated Project" />
-  <meta name="author" content="Lovable" />
+    <!-- App Title -->
+    <title>Devora - AI Resume Analyzer</title>
 
-  <!-- ✅ ADD THESE -->
-  <link rel="manifest" href="/manifest.json" />
-  <meta name="theme-color" content="#000000" />
-  <link rel="icon" type="image/png" href="/icon-192.png" />
+    <!-- Meta -->
+    <meta name="description" content="AI Resume Analyzer web app" />
+    <meta name="author" content="Aditya" />
 
-  <meta property="og:title" content="Lovable App" />
-  <meta property="og:description" content="Lovable Generated Project" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-</head>
+    <!-- ✅ PWA Setup -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- ✅ App Icons -->
+    <link rel="icon" type="image/png" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+
+    <!-- Open Graph (for sharing) -->
+    <meta property="og:title" content="Devora - AI Resume Analyzer" />
+    <meta property="og:description" content="Analyze resumes with AI and get ATS score" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icon-512.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Devora - AI Resume Analyzer" />
+    <meta name="twitter:description" content="AI-powered resume analysis tool" />
+    <meta name="twitter:image" content="/icon-512.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- Main App -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
